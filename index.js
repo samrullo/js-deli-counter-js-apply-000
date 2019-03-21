@@ -23,6 +23,8 @@ function currentLine(line){
     for(var i=0;i<line.length;i++){
       if(i<line.length-1){
         cur_line_txt+=i+". "+line[i]+", "
+      }else{
+        cur_line_txt+=i+". "+line[i]
       }
     }
   }
