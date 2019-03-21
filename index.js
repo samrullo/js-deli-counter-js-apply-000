@@ -24,7 +24,7 @@ function currentLine(line){
       if(i<line.length-1){
         cur_line_txt+=(i+1)+". "+line[i]+", ";
       }else{
-        cur_line_txt+=i+". "+line[i];
+        cur_line_txt+=(i+1)+". "+line[i];
       }
     }
     return cur_line_txt;
