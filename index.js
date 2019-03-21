@@ -27,5 +27,6 @@ function currentLine(line){
         cur_line_txt+=i+". "+line[i];
       }
     }
+    return cur_line_txt;
   }
 }
