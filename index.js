@@ -14,3 +14,7 @@ function nowServing(line){
     return cur_person;
   }
 }
+
+function currentLine(line){
+  
+}
