@@ -21,7 +21,9 @@ function currentLine(line){
   }else{
     var cur_line_txt="The line is currently: ";
     for(var i=0;i<line.length;i++){
-      
+      if(i<line.length-1){
+        cur_line_txt+=i+". "+line[i]+", "
+      }
     }
   }
 }
