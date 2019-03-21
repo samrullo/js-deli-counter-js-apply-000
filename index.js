@@ -19,6 +19,6 @@ function currentLine(line){
   if(line.length===0){
     return "The line is currently empty.";
   }else{
-    cur_line_txt="The line is currently: "
+    cur_line_txt="The line is currently: ";
   }
 }
